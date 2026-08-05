@@ -105,7 +105,7 @@ SRDP includes an engineering-grade suite of digital signal processing algorithms
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/SRDP.git
+git clone https://github.com/gourav-saharan/SRDP.git
 cd SRDP/SRDP_App
 ```
 
@@ -192,4 +192,4 @@ Distributed under the **MIT License**. See [LICENSE](LICENSE) for more informati
 ### 👤 Author
 - **Gourav Saharan**
 - **Email**: [gouravsaharan2002@gmail.com](mailto:gouravsaharan2002@gmail.com)
-- **GitHub**: [gouravsaharan2002](https://github.com/gouravsaharan2002)
+- **GitHub**: [gourav-saharan](https://github.com/gourav-saharan)
