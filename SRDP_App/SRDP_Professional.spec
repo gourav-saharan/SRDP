@@ -53,6 +53,7 @@ for dll_name in ('tcl86t.dll', 'tk86t.dll'):
         binaries.append((dll_path, '.'))
 
 
+
 a = Analysis(
     ['main.py'],
     pathex=[],
