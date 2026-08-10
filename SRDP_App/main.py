@@ -56,7 +56,7 @@ def show_splash():
 if __name__ == "__main__":
     splash = show_splash()
     
-    # Imports happen while splash is shown
+    
     import customtkinter as ctk
     from ui.app_window import AppWindow
 
