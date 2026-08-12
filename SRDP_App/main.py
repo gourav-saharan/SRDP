@@ -36,7 +36,7 @@ configure_tcl_tk_runtime()
 import tkinter as tk
 
 def show_splash():
-    # Simple text splash for instant feedback
+    
     splash = tk.Tk()
     splash.title("SRDP")
     w, h = 300, 150
