@@ -35,7 +35,7 @@ class ConfigFrame(ctk.CTkFrame):
         self.y_listbox.pack(side="left", fill="both", expand=True, padx=5, pady=5)
         scrollbar.configure(command=self.y_listbox.yview)
         
-        # Process Button
+       
         self.btn_process = ctk.CTkButton(self, text="Process & View Graph", command=self.process_graph)
         self.btn_process.pack(pady=20)
         
