@@ -17,7 +17,7 @@ class ConfigFrame(ctk.CTkFrame):
         self.combo_x = ctk.CTkComboBox(x_frame, values=["No data loaded"])
         self.combo_x.pack(side="left", fill="x", expand=True, padx=10)
         
-        # Y-Axis selection
+       
         ctk.CTkLabel(self, text="Select Y-Axis (Multiple):").pack(padx=20, pady=(10, 0), anchor="w")
         
         # Using native tk Listbox for massive performance boost when loading 1000+ columns
