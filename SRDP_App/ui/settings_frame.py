@@ -9,7 +9,7 @@ class SettingsFrame(ctk.CTkFrame):
         lbl = ctk.CTkLabel(self, text="Application Settings", font=ctk.CTkFont(size=24, weight="bold"))
         lbl.pack(pady=(20, 10), padx=20, anchor="w")
         
-        # Form Frame
+
         form = ctk.CTkFrame(self, fg_color="transparent")
         form.pack(fill="x", padx=20, pady=10)
         
