@@ -166,7 +166,6 @@ class GraphFrame(ctk.CTkFrame):
         self.tools_container = ctk.CTkFrame(self, fg_color="transparent")
         self.tools_container.grid(row=0, column=0, sticky="ew", padx=10, pady=5)
         
-        # Row 1: Filters
         filter_frame = ctk.CTkFrame(self.tools_container, fg_color="transparent")
         filter_frame.pack(fill="x", pady=2)
         ctk.CTkLabel(filter_frame, text="Data Filter:", font=ctk.CTkFont(weight="bold")).pack(side="left", padx=5)
