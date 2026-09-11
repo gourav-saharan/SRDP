@@ -1,4 +1,4 @@
-import customtkinter as ctk
+minimport customtkinter as ctk
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import os
@@ -194,7 +194,6 @@ class GraphFrame(ctk.CTkFrame):
         btn_apply_filter = ctk.CTkButton(filter_frame, text="Apply Filter", width=100, command=self.draw_graph)
         btn_apply_filter.pack(side="left", padx=20)
         
-        # Row 1.5: Sorting Row
         sort_frame = ctk.CTkFrame(self.tools_container, fg_color="transparent")
         sort_frame.pack(fill="x", pady=2)
         ctk.CTkLabel(sort_frame, text="Sort Data:", font=ctk.CTkFont(weight="bold")).pack(side="left", padx=5)
