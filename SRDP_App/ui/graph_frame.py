@@ -206,8 +206,7 @@ class GraphFrame(ctk.CTkFrame):
         
         btn_apply_sort = ctk.CTkButton(sort_frame, text="Apply Sort", width=100, command=self.draw_graph)
         btn_apply_sort.pack(side="left", padx=20)
-        
-        # Row 2: Texts Row
+    
         text_frame = ctk.CTkFrame(self.tools_container, fg_color="transparent")
         text_frame.pack(fill="x", pady=2)
         ctk.CTkLabel(text_frame, text="Graph Texts:", font=ctk.CTkFont(weight="bold")).pack(side="left", padx=5)
