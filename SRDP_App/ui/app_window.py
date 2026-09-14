@@ -23,7 +23,6 @@ class AppWindow(ctk.CTk):
         
         ctk.set_appearance_mode("Light") 
         
-        # Grid layout: 2 rows (TopBar, Main), 2 cols (Sidebar, MainContent)
         self.grid_rowconfigure(1, weight=1)
         self.grid_columnconfigure(1, weight=1)
         
