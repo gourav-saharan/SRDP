@@ -20,7 +20,6 @@ class ConfigFrame(ctk.CTkFrame):
        
         ctk.CTkLabel(self, text="Select Y-Axis (Multiple):").pack(padx=20, pady=(10, 0), anchor="w")
         
-        # Using native tk Listbox for massive performance boost when loading 1000+ columns
         list_container = ctk.CTkFrame(self)
         list_container.pack(fill="both", expand=True, padx=20, pady=5)
         
