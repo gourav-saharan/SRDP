@@ -30,7 +30,6 @@ class FileLoadError(Exception):
 
 class DataManager:
     def __init__(self):
-        # List of dicts: {"filepath": str, "tag": str, "df": DataFrame, "columns": list}
         self.files_data = []
         self.converted_dir = self._get_converted_dir()
 
