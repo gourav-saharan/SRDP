@@ -761,7 +761,6 @@ class DataManager:
             return df
 
         # Stop at a fully blank row after the table starts, which avoids pulling
-        # unrelated notes or secondary blocks into the uploaded dataset.
         blank_rows = df.isna().all(axis=1)
         if blank_rows.any():
             first_blank_positions = [idx for idx, blank in enumerate(blank_rows.tolist()) if blank and idx > 0]
