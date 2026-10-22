@@ -10,7 +10,7 @@ class ConfigFrame(ctk.CTkFrame):
         lbl = ctk.CTkLabel(self, text="Graph Configuration", font=ctk.CTkFont(size=24, weight="bold"))
         lbl.pack(pady=(20, 10), padx=20, anchor="w")
         
-        # X-Axis selection
+
         x_frame = ctk.CTkFrame(self, fg_color="transparent")
         x_frame.pack(fill="x", padx=20, pady=10)
         ctk.CTkLabel(x_frame, text="Select X-Axis:", width=100, anchor="w").pack(side="left")
